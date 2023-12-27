@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-...your-sha-here..." crossorigin="anonymous" />
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon">
+
+    <!-- Website Ranking  -->
+    <meta name="description"
+        content="Welcome to the online presence of Ashish Shrestha. Explore his expertise and achievements.">
+    <meta name="keywords" content="Ashish Shrestha, Ashish Shrestha website, Ashish Shrestha portfolio, Ashish Shrestha projects">
+    <meta name="author" content="Ashish Shrestha">
+    <meta name="robots" content="index, follow">
+    <title>Ashish Shrestha</title>
+
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="New Css/style.css">
+    <link rel="stylesheet" href="New Css/bootstrap.min.css">
+    <link rel="stylesheet" href="New Css/font-awesome.min.css">
+    <style>
+        #video-background {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Maintain aspect ratio while covering the viewport */
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Video Wrapper -->
+   
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">A$H!$H</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#blog">Recent Works</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+<style>
+       header {
+           
+            z-index: 1; /* Ensure header content is above the video */
+        }
+
+        video {
+            opacity: 60.2%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%); /* Center the video */
+            z-index: 0; /* Ensure video is below the header content */
+        }
+
+        .header-content {
+            z-index: 1; /* Ensure header content is above the video */
+        }
+</style>
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Ashish Shrestha</span>
+            </h1>
+            <p class="header-subtitle">Full Stack Web Developer</p>
+            <!-- <a href="#" download="CV" class="btn btn-primary">Download Cv</a> -->
+        </div>
+        <video id="myVideo" autoplay loop playsinline>
+            <source src="Naruto.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </header>
+<script>
+    document.getElementById('myVideo').addEventListener('click', function() {
+        this.play();
+    });
+</script>
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <br>
+                    <br>
+                    <br>
+                    <img src="Images/ashish.jpg" class="about-img "
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                
+                <div class="about-caption">
+                    <p class="section-subtitle" style="margin-top: 15px;" >Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Greetings, fellow wanderer of the digital realms! 👋 I am Ashish Shrestha, a passionate and wide-eyed
+                        individual on a quest to become a full-stack wizard in the vast kingdom of web development.
+                        <br>
+
+                        As an aspiring full-stack sorcerer, I traverse the realms of both enchanting front-end spells and backend wizardry, weaving a magical tapestry in the digital landscape. Whether I'm sculpting visually stunning enchantments on the user interface or conjuring powerful incantations in the server dungeons, my aim is to craft a seamless and magical user experience. Each line of code becomes a step in my heroic journey, and every bug conquered is a dragon defeated.
+
+In the backend kingdom, I harness the formidable power of Django, a framework that feels like pure magic. With Python as my trusted companion, I forge robust server-side applications, deftly managing databases and handling requests with the elegance and efficiency that Django brings to the digital table.
+
+As a fledgling full-stack developer, my mission is to seamlessly connect front-end marvels with backend sorcery. I am in the process of mastering the art of URL routing, view rendering. Whether refining existing projects or embarking on new ones, let's code together and explore the enchanting possibilities that Django offers in crafting powerful web applications. 💻✨🌐
+                    </p>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!--education start -->
+    <section id="education" class="education">
+        <div class="section-heading text-center">
+            <h2>education</h2>
+        </div>
+        <div class="container">
+            <div class="education-horizontal-timeline">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="single-horizontal-timeline">
+                            <div class="experience-time">
+                                <h2>2021 - 2022</h2>
+                                <h3>+2 <span>Computer </span> Management</h3>
+                            </div><!--/.experience-time-->
+                            <div class="timeline-horizontal-border">
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                <span class="single-timeline-horizontal"></span>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-content">
+                                    <h4 class="title">
+                                        Divya Gyan College
+                                    </h4>
+                                    <h5>Kathmandu | Nepal</h5>
+                                    <p class="description">
+                                        As a curious student in Class 11, I unravel the mysteries of Computer
+                                        Management, delving into the art of overseeing and optimizing the digital
+                                        infrastructure. From understanding the intricacies of system architecture to
+                                        mastering the art of network administration, I am cultivating the skills needed
+                                        to become a steward of the digital realm.
+                                    </p>
+                                </div><!--/.timeline-content-->
+                            </div><!--/.timeline-->
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-horizontal-timeline">
+                            <div class="experience-time">
+                                <h2>2022 - 2023</h2>
+                                <h3>+2 <span>Computer</span> Management</h3>
+                            </div><!--/.experience-time-->
+                            <div class="timeline-horizontal-border">
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                <span class="single-timeline-horizontal spacial-horizontal-line
+									"></span>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-content">
+                                    <h4 class="title">
+                                        Divya Gyan College
+                                    </h4>
+                                    <h5>Kathmandu | Nepal</h5>
+                                    <p class="description">
+                                        No longer a mere spectator, I am evolving into an architect of digital realms.
+                                        Class 12 unveils the secrets of software development, database management, and
+                                        system design. Armed with this knowledge, I aspire to craft digital landscapes
+                                        that seamlessly blend innovation and efficiency.
+                                    </p>
+                                </div><!--/.timeline-content-->
+                            </div><!--/.timeline-->
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-horizontal-timeline">
+                            <div class="experience-time">
+                                <h2>2023 - Running</h2>
+                                <h3>Bachelor's <span>In</span> Computer Application</h3>
+                            </div><!--/.experience-time-->
+                            <div class="timeline-horizontal-border">
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                <span class="single-timeline-horizontal spacial-horizontal-line
+									"></span>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-content">
+                                    <h4 class="title">
+                                        Ganesh Man Singh Multiple Campus
+                                    </h4>
+                                    <h5>Kathmandu | Nepal</h5>
+                                    <p class="description">
+                                        In the 1st semester, the voyage takes me into the intricate world of data
+                                        structures. From arrays to trees, I am unraveling the architecture that
+                                        underpins efficient information storage and retrieval. As I navigate these
+                                        digital structures, I'm honing my skills to design algorithms that dance in
+                                        harmony with data.
+                                    </p>
+                                </div><!--/.timeline-content-->
+                            </div><!--/.timeline-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section><!--/.education-->
+
+
+
+    <!--experience start -->
+    <section id="experience" class="experience">
+        <div class="section-heading text-center">
+            <h2>experience</h2>
+        </div>
+        <div class="container">
+            <div class="experience-content">
+                <div class="main-timeline">
+                    <ul>
+                        <li>
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="experience-time text-right">
+                                            <h2>2023 - Present</h2>
+                                            <h3>It Support Officer</h3>
+                                        </div><!--/.experience-time-->
+                                    </div><!--/.col-->
+                                    <div class="col-md-offset-1 col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content">
+                                                <h4 class="title">
+                                                    <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                    <a href="https://www.pioneersoftware.com.np/" target="_blank"
+                                                        style="text-decoration: none;">Pioneer Software Solutions Pvt
+                                                        Ltd</a>
+                                                </h4>
+                                                <h5>Kathmandu | Nepal</h5>
+                                                <p class="description">
+                                                    As an IT Support Officer in our dynamic software company, I play a
+                                                    pivotal role in ensuring the seamless operation of our digital
+                                                    ecosystem. My primary responsibility is to act as the first line of
+                                                    defense against technical glitches, offering swift and effective
+                                                    solutions to troubleshoot software-related issues.
+                                                </p>
+                                            </div><!--/.timeline-content-->
+                                        </div><!--/.timeline-->
+                                    </div><!--/.col-->
+                                </div>
+                            </div><!--/.single-timeline-box-->
+                        </li>
+
+                        <li>
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                        <div class="experience-time">
+                                            <h2>
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                2023 - Night Shift
+                                            </h2>
+                                            <h3>Full Stack Devloper /h3>
+                                        </div><!--/.experience-time-->
+                                    </div><!--/.col-->
+                                    <div class="col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content text-right">
+                                                <h4 class="title">
+                                                    Freelancer
+                                                </h4>
+                                                <h5>Kathmandu | Nepal</h5>
+                                                <p class="description">
+                                                    Embracing the freedom of freelancing, I am not bound by cubicles but
+                                                    driven by curiosity. From the cozy corners of coffee shops to the
+                                                    bustling energy of co-working spaces, I let the spirit of
+                                                    exploration guide my coding endeavors. No challenge is too daunting,
+                                                    no project too vast for this nomadic coder
+                                                </p>
+                                            </div><!--/.timeline-content-->
+                                        </div><!--/.timeline-->
+                                    </div><!--/.col-->
+                                    <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                        <div class="experience-time">
+                                            <h2>
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                2023 - Night Shift
+                                            </h2>
+                                            <h3>Freelancer - Full Stack Devloper</h3>
+                                        </div><!--/.experience-time-->
+                                    </div><!--/.col-->
+                                </div>
+                            </div><!--/.single-timeline-box-->
+                        </li>
+                    </ul>
+                </div><!--.main-timeline-->
+            </div><!--.experience-content-->
+        </div>
+
+    </section><!--/.experience-->
+    <!--experience end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Web Desigining</h6>
+                            <p class="subtitle">As a freelance web designer, I wield my creativity like a paintbrush,
+                                transforming blank screens into vibrant masterpieces. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">E-commerce Website</h6>
+                            <p class="subtitle"> I work closely with clients to understand their brand, target audience,
+                                and business goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Custom Web Application</h6>
+                            <p class="subtitle">Collaboration is the key to success. I work closely with clients to
+                                understand their objectives,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Photoshop</h6>
+                            <p class="subtitle">In the intricate dance of pixels, I pride myself on an unwavering
+                                attention to detail. </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="Images/pag1.png" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="Images/new2.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="Images/new.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"
+                        style="border: 2px solid white; width: 95px; text-align: center; text-decoration: none; color: rgb(3, 207, 243); height: 35px; padding : 5px">Hire
+                        Me</a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    >
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Recent Works ?</p>
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="Images/task1png" blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Axis Solutions Pvt Ltd</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Admin</a>
+
+                        </p>
+                        <p>Welcome to Axis Solutions, where innovation converges with excellence to propel your business
+                            to new heights. As a dynamic software service provider, we specialize in crafting tailored
+                            solutions that align with your unique needs and aspirations. With a team of skilled
+                            professionals at the helm,</p>
+
+                        <p><b>Axis Solutions navigates the ever-evolving landscape of technology,</b>
+                        </p>
+                        <p>offering a comprehensive suite of services ranging from custom software development to system
+                            integration and beyond. Our commitment is to serve as your strategic partner, guiding you
+                            along the axis of digital transformation. At Axis Solutions, we don't just provide software
+                            services; we architect solutions that redefine the way you operate in the digital realm.
+                        </p>
+
+                        <a href="https://demoaxis.netlify.app/" class="blog-card-link" target="_blank">Read more <i
+                                class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="Images/task2.png" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Ganesh Man Singh Multiple Campus</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Admin</a>
+
+                        </p>
+
+                        <p>Ganeshman Singh Multiple campus was established in the year 2064, in the loving memory of
+                            late personified democratic leader—Ganeshman Singh. The campus is also a huge sentimental
+                            tribute to the historical people’s movement of 2063/2064 and offers a quality education to
+                            students regardless of their creeds, race, gender, community, and linguistic background.
+                            Situated at Kalanki, Kathmandu—GMS is an educational institution that provides higher
+                            education at an affordable price. The campus is the outcome of a sheer enthusiasm and
+                            popular belief for the need of high academic excellence and the lack of best educational
+                            techniques. With an aim to encourage the utmost innovative character and creative outlook
+                            for the students, GMS offers sharp pragmatic teaching, adequate training, and research
+                            opportunities in the areas of Management and humanities</p>
+
+                        <a href="https://www.ganeshmansingh.edu.np/about.html" class="blog-card-link"
+                            target="_blank">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!--contact start -->
+    <section id="contact" class="contact">
+        <div class="section-heading text-center">
+            <h2>Contact me</h2>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-5 col-sm-6">
+                        <div class="single-contact-box">
+                            <div class="contact-form">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.421208434714!2d85.30488807461259!3d27.704278425628395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1857d1f77871%3A0xc5b0391005a641fd!2sKathmandu%20Durbar%20Square!5e0!3m2!1sen!2snp!4v1703683585140!5m2!1sen!2snp" width="500" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div><!--/.contact-form-->
+                        </div><!--/.single-contact-box-->
+                    </div><!--/.col-->
+                    <div class="col-md-offset-1 col-md-5 col-sm-6">
+                        <div class="single-contact-box">
+                            <div class="contact-adress">
+                                <div class="contact-add-head">
+                                    <h3>ASHISH SHRESTHA</h3>
+                                    <p>Full Stack Developer</p>
+                                </div>
+                                <div class="contact-add-info">
+                                    <div class="single-contact-add-info">
+                                        <h3>Phone</h3>
+                                        <p>+977-9808629430, 9744370307</p>
+                                    </div>
+                                    <div class="single-contact-add-info">
+                                        <h3>Email</h3>
+                                        <p><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">ashishshrestha736@gmail.com</a></p>
+                                    </div>
+                                    <div class="single-contact-add-info">
+                                        <h3>Website</h3>
+                                        <p><a href="https://www.ashishshrestha.name.np/" target="_blank">www.ashishshrestha.name.np</a></p>
+                                    </div>
+                                </div>
+                            </div><!--/.contact-adress-->
+                            <div class="hm-foot-icon">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/ashish.shrestha.75457081/" target="_blank"><i
+                                                class="fa fa-facebook"></i></a></li><!--/li-->
+                                    <li><a href="https://www.instagram.com/ashishstha077/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a></li><!--/li-->
+                                </ul><!--/ul-->
+                            </div><!--/.hm-foot-icon-->
+                        </div><!--/.single-contact-box-->
+                    </div><!--/.col-->
+                </div><!--/.row-->
+            </div><!--/.contact-content-->
+        </div><!--/.container-->
+
+    </section><!--/.contact-->
+    <!--contact end -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="http://ashishshrestha.name.np">ASHISH SHRESTHA</a>
+            </p>
+
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+  /Chatra {/literal} -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the video element
+            var video = document.getElementById("video-background");
+
+            // Enable sound
+            video.muted = false;
+
+            // Play the video
+            video.play();
+        });
+    </script>
+
+
+</body>
+
+</html>
